@@ -1,0 +1,52 @@
+
+/*-- scss:defaults --*/
+
+// Include theme-specific fonts
+@import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+
+// Override theme settings
+$font-family-sans-serif: "font-awesome", sans-serif !default;
+$body-color: #2a4187 !default;
+$presentation-heading-font: "font-awesome", sans-serif !default;
+$presentation-heading-color: #2a4187 !default;
+$presentation-heading-text-shadow: none !default;
+$presentation-heading-text-transform: none !default;
+$body-bg: #fff !default;
+$link-color: #2a4187 !default;
+$selection-bg: rgba(0, 0, 0, 0.99) !default;
+
+$overlayElementBgColor: 0, 0, 0 !default;
+$overlayElementFgColor: 240, 240, 240 !default;
+
+// Change text colors against dark slide backgrounds
+$dark-bg-text-color: #fff !default;
+
+/*-- scss:rules --*/
+
+h1{
+  text-decoration: underline #35b3a7 !important;
+  text-decoration-thickness: 5px !important;
+}
+
+h2{
+  text-decoration: underline #35b3a7 !important;
+  text-decoration-thickness: 3px !important;
+}
+
+h3{
+  text-decoration: underline #35b3a7 !important;
+  text-decoration-thickness: 3px !important;
+}
+
+
+.slide-logo {
+  display: block !important;
+  position: fixed !important;
+  right: 10px !important;
+  max-height: 30% !important;
+  height: 200% !important;
+  width: auto !important;
+  color: $body-color !important;
+}
