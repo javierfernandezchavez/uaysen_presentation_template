@@ -1,12 +1,12 @@
 title: Universidad de Aysen Presentation Template
 author: Javier Fernández Chávez
-version: 0.0.1
+version: 0.0.2
 contributes:
   formats: 
     revealjs:
-      logo: logo_uaysen.svg
+      logo: logo_uaysen.jpg
       footer: |
-        Tema [Presentaciones en Quarto](https://quarto.org/docs/presentations/revealjs/index.html) de la [UAysen](https://www.uaysen.cl/). Código disponible en [GitHub](https://github.com/javierfernandezchavez/uaysen_presentation_template).
+        Tema [Presentaciones en Quarto](https://quarto.org/docs/presentations/revealjs/index.html) inspirado en [UAysen](https://www.uaysen.cl/). Código disponible en [GitHub](https://github.com/javierfernandezchavez/uaysen_presentation_template).
       theme: uaysen.scss
       slide-number: c/t
       show-slide-number: all

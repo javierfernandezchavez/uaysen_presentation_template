@@ -5,6 +5,7 @@ author: "Javier Fernández Chávez"
 format: 
   uaysen-revealjs:
     incremental: true
+    embed-resources: true
 ---
 
 ## Quarto
@@ -17,12 +18,15 @@ When you click the **Render** button a document will be generated that includes:
 
 -   Content authored with markdown
 -   Output from executable code
+    - lista 2
+        - lista 3
 
 ## Code
 
 When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
 
 ```{r}
+#| echo: true
 1 + 1
 ```
 

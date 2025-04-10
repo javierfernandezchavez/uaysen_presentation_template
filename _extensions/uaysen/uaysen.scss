@@ -8,6 +8,7 @@
 
 // Override theme settings
 $font-family-sans-serif: "font-awesome", sans-serif !default;
+$presentation-font-size-root: 35px !default;
 $body-color: #2a4187 !default;
 $presentation-heading-font: "font-awesome", sans-serif !default;
 $presentation-heading-color: #2a4187 !default;
@@ -50,3 +51,21 @@ h3{
   width: auto !important;
   color: $body-color !important;
 }
+
+  // Level 1 (default size)
+  ul li,
+  ol li {
+    font-size: 0.95em;
+  }
+
+  // Level 2
+  ul ul li,
+  ol ol li {
+    font-size: 0.88em;
+  }
+
+  // Level 3
+  ul ul ul li,
+  ol ol ol li {
+    font-size: 0.77em;
+  }
